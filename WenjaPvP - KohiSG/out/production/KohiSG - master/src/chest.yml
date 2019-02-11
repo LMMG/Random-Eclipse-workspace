@@ -1,0 +1,76 @@
+chests: 
+  item:
+    - material: diamond_sword
+      min: 1
+      max: 1
+      displayname: "LOOTABILITY Diamond Sword"
+      lore:
+        - Line1
+        - Line2
+        - Line3
+      enchant:
+        loot_bonus_mobs: 3
+        durability: 1
+      chance: 20
+    - material: wool
+      displayname: "Blue Wool"
+      min: 1
+      max: 1
+      chance: 5
+      damage: 11
+    - material: glass_bottle
+      min: 1
+      max: 6
+      chance: 30
+    - material: diamond
+      min: 1
+      max: 4
+      chance: 30
+    - material: cake
+      min: 1
+      max: 1
+      chance: 20
+    - material: ender_pearl
+      min: 1
+      max: 6
+      chance: 20
+    - material: cooked_fish
+      min: 2
+      max: 5
+      chance: 20
+    - material: golden_apple
+      min: 1
+      max: 2
+      chance: 10
+    - material: bow
+      min: 1
+      max: 1
+      chance: 20
+    - material: arrow
+      min: 16
+      max: 32
+      chance: 20
+    - material: GLOWSTONE_DUST
+      min: 2
+      max: 5
+      chance: 25
+    - material: NETHER_WARTS
+      min: 2
+      max: 5
+      chance: 25
+    - material: SPECKLED_MELON
+      min: 2
+      max: 5
+      chance: 20
+    - material: magma_cream
+      min: 1
+      max: 2
+      chance: 20
+    - material: Flint_and_steel
+      min: 1
+      max: 1
+      chance: 20
+    - material: sugar
+      min: 1
+      max: 1
+      chance: 20

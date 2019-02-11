@@ -1,0 +1,35 @@
+database:
+  name: iPunish
+  host: localhost
+  port: 3306
+  login:
+    username: "username"
+    password: "password"
+
+ban-message: "&cYour account has been suspended from The iPvP Network.\nReason: %REASON%."
+ban-related-message: "&cYou account has been suspended from the iPvP Network.\nYou have been banned in relation to another banned account.\nReason: %REASON%"
+tempban-message: "&cYour account has been temporarily suspended from The iPvP Network.\nReason: %REASON%.\nYou will be unbanned in:\n%TIME%."
+mute-message: "&cYou're currently muted for %REASON%! You will be unmuted in: %TIME%."
+kick-message: "&cYou have been kicked!\nReason: %REASON%"
+ban-broadcast: "&a%BANNED_PLAYER% has been banned by %PLAYER%."
+tempban-broadcast: "&a%BANNED_PLAYER% has been tempbanned by %PLAYER% for %TIME%."
+mute-broadcast: "&a%MUTED_PLAYER% has been muted by %PLAYER%."
+unmute-broadcast: "&a%UNMUTED_PLAYER% has been muted by %PLAYER%."
+unban-broadcast: "&a%UNBANNED_PLAYER% has been unbanned by %PLAYER%."
+kick-broadcast: "&a%KICKED_PLAYER% has been kicked by %PLAYER%."
+default-ban-reason: "Misconduct"
+
+ban-reasons:
+  - "Blacklist"
+  - "Hacks"
+
+items:
+  ban-item:
+    item_type: IRON_SWORD
+    item_data: 0
+    item_position: 0
+    item_name: "&cBan %PLAYER%"
+    item_command: "ban %PLAYER%"
+    item_lore:
+      - "&7This is the ban item!"
+      - "&7Clicking this item will ban %PLAYER%!"

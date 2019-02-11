@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Saifed_-_Utilities.jar">
+    <output-path>$USER_HOME$/Desktop/DEVELOPMENT/IntelliJ - Out</output-path>
+    <root id="archive" name="Saifed_-_Utilities.jar.jar">
+      <element id="file-copy" path="$USER_HOME$/Downloads/lombok-edge.jar" />
+      <element id="module-output" name="Saifed Utilities" />
+      <element id="library" level="project" name="KotlinJavaRuntime" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WenjaPvP - KohiSG:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WenjaPvP___KohiSG_jar</output-path>
+    <root id="archive" name="KohiSG - master.jar">
+      <element id="module-output" name="KohiSG - master" />
+    </root>
+  </artifact>
+</component>

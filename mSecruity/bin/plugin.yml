@@ -1,0 +1,9 @@
+name: mSecurity
+author: Levice
+version: 1.0
+main: gg.mist.mSecruity
+commands:
+  pin:
+  setpin:
+  blacklist:
+  ipreset:

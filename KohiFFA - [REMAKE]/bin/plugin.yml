@@ -1,0 +1,11 @@
+name: KohiFFA
+main: rip.kohi.KohiFFA
+author: Evocative
+version: 1.0
+commands:
+  staffmode:
+    aliases: [h, staff]
+  vanish:
+    aliases: [v]
+  stats:
+  serverhandler:

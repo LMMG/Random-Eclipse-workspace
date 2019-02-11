@@ -1,0 +1,6 @@
+name: Lobby
+version: 1.0-BETA
+main: net.okaru.lobby.Lobby
+author: [puttydotexe, Vertises]
+deps: [Permissions]
+commands: 

@@ -1,0 +1,8 @@
+# Plugin created exclusively for Saifed Network by Gonzalo "ItsArslann" Avalos.
+# Currently running version: 0.2-SNAPSHOT
+messages:
+    coords:
+        - "&6&m-----------------------------------------------------"
+        - " &e&lImportant Locations &7(x, z)"
+        - "   &aEnd Portal&e: &71500, 1500"
+        - "&6&m-----------------------------------------------------"

@@ -1,0 +1,6 @@
+name: SQLStats
+version: 1.0
+main: com.mcmarket.SQLStats
+author: Conspiracy
+commands:
+  stats:

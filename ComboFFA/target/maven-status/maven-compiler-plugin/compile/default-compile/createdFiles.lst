@@ -1,0 +1,17 @@
+com\bizarrealex\aether\scoreboard\Board.class
+com\bizarrealex\aether\scoreboard\BoardEntry.class
+com\bizarrealex\aether\scoreboard\cooldown\BoardFormat.class
+com\bizarrealex\aether\AetherOptions.class
+com\bizarrealex\aether\scoreboard\cooldown\BoardCooldown.class
+com\bizarrealex\aether\scoreboard\BoardAdapter.class
+support\evocative\listener\PlayerListeners.class
+support\evocative\profile\Profile.class
+com\bizarrealex\aether\example\ExampleBoardAdapter.class
+com\bizarrealex\aether\Aether$1.class
+support\evocative\scoreboard\Provider.class
+support\evocative\listener\PlayerloginKitListener.class
+support\evocative\ComboFFA.class
+support\evocative\events\StaffEvent.class
+support\evocative\profile\listener\ProfileListener.class
+com\bizarrealex\aether\Aether.class
+support\evocative\listener\PlayerloginKitListener$1.class

@@ -1,0 +1,5 @@
+name: GGA
+version: ${version}
+main: net.psychz.gga.bungee.BungeeSide
+authors: [suedadam, Sponges]
+description: Psychz's GGA platform plugin able to be used on both Bukkit/Spigot and BungeeCord. 

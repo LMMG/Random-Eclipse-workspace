@@ -1,0 +1,8 @@
+name: Nexus
+main: io.hopt.Nexus
+version: 1.0
+author: zServers
+commands:
+  author:
+  setspawn:
+  changelog:

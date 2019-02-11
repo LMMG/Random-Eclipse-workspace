@@ -1,0 +1,18 @@
+name: Pathogen
+main: gg.vexus.Core
+author: Mist Development Team
+version: 4cdd8db
+commands:
+  lag:
+  vanish:
+    aliases: [v]
+  mod:
+    aliases: [h, staffmode, staff, cunt]
+  slowchat:
+  list:
+  clearchat:
+    aliases: [cc]
+  copyinv:
+  help:
+  rules:
+  stats:

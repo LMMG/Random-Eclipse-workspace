@@ -1,0 +1,9 @@
+name: Typa
+version: 1.0
+main: net.rifthq.typa.Typa
+author: [puttydotexe, CoderSYD]
+commands:
+  register: 
+    description: Register Account!
+  login:
+    description: Login to Account!

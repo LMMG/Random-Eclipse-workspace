@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/paperspigot-api-1.7.10-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/MCSpook/cLib.jar"/>
+	<classpathentry kind="lib" path="C:/MCSpook/tcpr.ca.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/Commions-IO-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/common-lang3.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/Commons-Collections-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/Guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/HikariCP-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/JavaJSON.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/mariadb-java-client-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/PaperSpigot.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/PermissionsEx-1.22.10.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/Trove4J-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend2/zPerms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/Kirai Server/Hub-01/plugins/Base.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/plugins/WorldRollback/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/plugins/WorldRollback/WorldEdit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

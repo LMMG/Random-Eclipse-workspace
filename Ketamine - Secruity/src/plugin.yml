@@ -1,0 +1,9 @@
+name: Ketamine
+main: rip.kirai.Katamine
+author: Addons
+version: 1.0
+commands:
+  login:
+  changepin:
+  deletepin:
+  register:

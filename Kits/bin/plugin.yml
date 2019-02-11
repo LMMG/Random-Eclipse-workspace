@@ -1,0 +1,53 @@
+name: KitMap
+version: 5.1.2-RELEASE
+description: Redis enabled Kits port of Factions
+author: [MilkSales, Joeleoli, doctordank]
+main: net.nersa.kitmap.HCF
+softdepend: [ProtocolLib]
+commands:
+  spawn:
+  focus:
+  rules: 
+  chest:
+  endportal:
+      description: Staff Utility command to light players end portals.
+  hcfhelp:
+      aliases: [help, ehelp]
+  angle:
+    description: Check your yaw and pitch position.
+  conquest:
+    description: Command used to handle Conquest events.
+  death:
+    description: Command used to kill combat-loggers.
+  economy:
+    aliases: [$, bal, money, eco, econ, tokens]
+    description: Command used to modify the economy.
+  end:
+    description: Command used to close or open the end.
+  event:
+    description: Command used to manage minigame events.
+  faction:
+    aliases: [f, fac]
+    description: Faction related commands.
+  gopple:
+    description: Command to check remaining OP apple cooldown time.
+    aliases: [opple, goppletimer, goppletime, oppletimer, oppletime]
+  hcf:
+    aliases: [hardcorefactions, hcfactions]
+  koth:
+    description: Make or delete KotH arenas.
+  location:
+    aliases: [loc]
+    description: Check the faction location of a player.
+  logout:
+    aliases: [disconnect]
+    description: Command to safely logout without an NPC spawning.
+  pay:
+    aliases: [p2p]
+    description: Allow players to pay money.
+  regen:
+    description: Check ETA until a faction is able to regenerate DTR.
+  servertime:
+    description: Checks the date and time of server.
+  timer:
+    description: Command to manage timers.

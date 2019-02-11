@@ -1,0 +1,243 @@
+UNRANKED_MATCHES: "&eYou must win &c%AMOUNT%&e more unranked matches."
+TAB:
+  FRIEND_PREFIX: "&a"
+  ENEMY_PREFIX: "&c"
+ENDERPEARL_COOLDOWN: "&cYou must wait &l%TIME%s&c before enderpearling again."
+DUEL:
+  INVENTORY:
+    LADDER_TITLE: "&7Select a ladder"
+    ARENA_TITLE: "&7Select an arena"
+    ARENA_ITEM:
+      ITEM: "WOOL"
+      DATA: 5
+      NAME: "&a%ARENA%"
+      LORE:
+        - "&e%DESCRIPTION%"
+  COMMAND:
+    USAGE: "&c/duel <player>"
+    INVALID_PLAYER: "&cThere isn't a player named '%NAME%' online."
+    ALREADY_REQUESTED: "&cYou have already requested to duel %PLAYER%."
+    CANNOT_DUEL_YOURSELF: "&cYou can't duel yourself!"
+    CANCELLED: "&cDuel request cancelled."
+    SENT: "&eYou have sent a duel request to &9%PLAYER%&e."
+    RECEIVED: "&b%PLAYER%&e has challenged you to a &a%LADDER%&e duel."
+    RECEIVED_TOOLTIP: "&bClick to accept this duel request"
+    ACCEPT_USAGE: "&fUnknown command. Type \"/help\" for help."
+    NOT_RECEIVED: "&c%PLAYER% has not sent you a duel request!"
+    PLAYER_NOT_IN_SPAWN: "&c%PLAYER% is not in spawn."
+    NOT_IN_SPAWN: "&cYou're not in spawn."
+FIGHT:
+  INVENTORY:
+    TITLE: "&7Inventory of %PLAYER%"
+    HEALTH:
+      ITEM: "MELON"
+      DATA: 0
+      NAME: "&cHealth %HEALTH%/10.0"
+    POTIONS:
+      ITEM: "INK_SACK"
+      DATA: 1
+      NAME: "&c%AMOUNT% Healing Potions"
+    COMMAND:
+      USAGE: "&fUnknown command. Type \"/help\" for help."
+      VIEW: "&eOpening the inventory of %PLAYER%."
+      INVALID: "&cThat inventory is invalid."
+  PARTY:
+    GAME_END:
+      WINNER: "&6Winner&f - %WINNER%"
+      INVENTORIES: "&6Inventory Information&f - "
+      INVENTORIES_HOVER: "&eClick to view the inventory of %PLAYER%."
+    COUNTDOWN: "&eThe fight will commence in %SECONDS% seconds."
+    COUNTDOWN_ENDED: "&eThe fight has started!"
+  1V1:
+    GAME_END:
+      ELO_CHANGES: "&6ELO Information&f - &e%WINNER% &a[%WINNER_ELO%] (+%WINNER_AMOUNT%)&f, &e%LOSER% &c[%LOSER_ELO%] (-%LOSER_AMOUNT%)"
+      INVENTORIES: "&6Inventory Information&f - "
+      INVENTORIES_HOVER: "&eClick to view the inventory of %PLAYER%."
+    COUNTDOWN: "&eThe fight will commence in %SECONDS% seconds."
+    COUNTDOWN_ENDED: "&eThe fight has started!"
+SCOREBOARD:
+  TITLE: "&6&lIcefyre&f - Practice"
+  MODULES:
+    IN_PARTY_DUEL:
+      - "&7&m-------------------"
+      - "&6&lDuration:&f %TIME%"
+      - "&a&lPearl Cooldown:&f %ENDER_PEARL%"
+      - "&7&m-------------------&r"
+    IN_DUEL:
+      - "&7&m-------------------"
+      - "&c&lOpponent:&f %OPPONENT%"
+      - "&6&lDuration:&f %TIME%"
+      - "&a&lPearl Cooldown:&f %ENDER_PEARL%"
+      - "&7&m-------------------&r"
+    IN_QUEUE:
+      - "&7&m-------------------"
+      - "&6Queue Information"
+      - " &6* &eLadder &f- &a%LADDER%"
+      - " &6* &eTime Taken &f- %TIME%"
+      - " &6* &eRange &f- &9[%LOW% -> %HIGH%]"
+      - "&7&m-------------------&r"
+    IN_LOBBY:
+      - "&7&m-------------------"
+      - "&eOnline:&f %ONLINE%"
+      - "&dIn Fights:&f %IN_FIGHTS%"
+      - "&bIn Queues:&f %IN_QUEUE%"
+      - "&7&m-------------------&r"
+    IN_PARTY_LOBBY:
+      - "&7&m-------------------"
+      - "&eOnline:&f %ONLINE%"
+      - "&dIn Fights:&f %IN_FIGHTS%"
+      - "&bIn Queues:&f %IN_QUEUE%"
+      - "&aIn Party:&f %IN_PARTY%"
+      - "&7&m-------------------&r"
+KIT_SELECTOR:
+  TITLE: "&7Kit Selection"
+  DEFAULT_KIT_ITEM: "&7Default %LADDER% Kit"
+  SAVED_KIT_ITEM: "&e%KIT%"
+  APPLIED: "&aYou have selected the kit named '%KIT%'."
+  CANCELLED: "&cKit selection cancelled, so you have received the default kit."
+KIT_BUILDER:
+  SAVE_INVENTORY:
+    TITLE: "&7Manage %LADDER% kits"
+    CHEST_SAVE: "&eSave New Kit"
+    KIT_NAME: "&e%KIT%"
+    MODIFY: "&6Overwrite %KIT%"
+    RENAME: "&aRename %KIT%"
+    DELETE: "&cDelete %KIT%"
+  BUILDING_INVENTORY: "&7%LADDER% items"
+  DELETED: "&cYou have deleted the kit named '%KIT%'."
+  RENAMED: "&eYou have renamed '%OLD_NAME%' to '%NEW_NAME%'."
+  TYPE_IN_CHAT: "&eType a new name for %KIT%."
+  CREATED: "&eYou have saved your inventory to %NAME%."
+  MODIFIED: "&eYou have successfully updated the kit named %KIT%."
+  SENT: "&aYou have been sent to the kit builder."
+  RETURNED: "&aYou have been returned to spawn."
+  INVENTORY:
+    LADDER_SELECT:
+      TITLE: "&aSelect a ladder"
+  SIGN:
+    RETURN_TO_SPAWN:
+      - " "
+      - "&cReturn"
+      - "&8Click to go"
+      - " "
+PARTY:
+  SENT: "&eYou have challenged &b%PLAYER%&e's party to a &a%LADDER%&e fight."
+  RECEIVED: "&b%PLAYER%&e's party has challenged you to a &a%LADDER%&e fight."
+  RECEIVED_TOOLTIP: "&aClick here to accept"
+  INVENTORY:
+    TITLE: "&cParties (Page %PAGE%/%TOTAL%)" #i wouldnt change this btw
+    NEXT_PAGE:
+      ITEM: "CARPET"
+      DATA: 7
+      NAME: "&cNext Page"
+    PREVIOUS_PAGE:
+      ITEM: "CARPET"
+      DATA: 7
+      NAME: "&cNext Page"
+    INFO:
+      ITEM: "PAPER"
+      DATA: 0
+      NAME: "&cParties %PAGE%/%TOTAL%"
+    PARTY:
+      NAME: "&6%LEADER%'s Party"
+      MEMBER: "&e"
+  INVALID_ACTION: "&cYou cant do this whilst in a party."
+  CHAT:
+    LEADER: "&b&l[P] %PLAYER%:&d %MESSAGE%"
+    MEMBER: "&d&l[P] %PLAYER%:&d %MESSAGE%"
+  HELP:
+   - "&6&m----------------------------------------------"
+   - "&9Party Commands:"
+   - "&e/party invite &7- Invite a player to join your party"
+   - "&e/party leave &7- Leave your current party"
+   - "&e/party info [player] &7- View the roster of a party"
+   - " "
+   - "&9Leader Commands:"
+   - "&e/party kick <player> &7- Kick a player from your party"
+   - "&e/party leader <player> &7- Transfer party leadership"
+   - "&e/party disband &7- Disbands party"
+   - " "
+   - "&9Other Help:"
+   - "&eTo use &dparty chat&e, prefix your message with the '&d@&e' symbol."
+   - "&6&m----------------------------------------------"
+  NOT_IN_PARTY: "&cYou're not in a party!"
+  NOT_IN_PARTY_OTHER: "&c%PLAYER% is not in a party!"
+  COMMAND:
+    LEADER:
+      USAGE: "&c/party leader <player>"
+      NOT_ONLINE: "&cNo player named '%NAME%' found."
+      NOT_IN_PARTY: "&c%PLAYER% is not in your party."
+      NOT_LEADER: "&cYou must be the leader to give leadership to another player."
+      LEADER_SELF: "&cYou're already the leader!"
+      ANNOUNCEMENT: "&c%LEADER% has transferred party leadership to %PLAYER%."
+    KICK:
+      USAGE: "&c/party kick <player>"
+      NOT_ONLINE: "&cNo player named '%NAME%' found."
+      NOT_IN_PARTY: "&c%PLAYER% is not in your party."
+      NOT_LEADER: "&cYou must be the leader of your party to kick players."
+      KICK_SELF: "&cYou cannot kick yourself."
+      ANNOUNCEMENT: "&c%PLAYER% has been kicked by %LEADER%."
+    INFO:
+      MESSAGE:
+        - "&6&m----------------------------"
+        - "&eLeader: &c%LEADER%"
+        - "&eMembers: &7%MEMBERS%"
+        - "&6&m----------------------------"
+    JOIN:
+      USAGE: "&c/party join <player>"
+      IN_PARTY: "&cYou're already in a party."
+      NOT_ONLINE: "&cNo player named '%NAME%' found."
+      NOT_INVITED: "&cYou have not been invited to that party."
+      JOIN_SELF: "&cYou cannot invite yourself to your own party."
+      ANNOUNCEMENT: "&b%PLAYER%&e has joined the party."
+    INVITE:
+      USAGE: "&c/party invite <player>"
+      NOT_LEADER: "&cYou must be the leader of your party to invite players."
+      NOT_ONLINE: "&cNo player named '%NAME%' found."
+      ALREADY_INVITED: "&cYou have already invited %PLAYER% to your party."
+      INVITE_SELF: "&cYou cannot invite yourself to your own party."
+      ANNOUNCEMENT: "&b%PLAYER%&e has invited &a%INVITED%&e to the party."
+      INVITED: "&eYou have been invited to join &b%PLAYER%&e's party. (Click to join)"
+      INVITED_TOOLTIP: "&eClick to join %PLAYER%'s party"
+      ALREADY_IN_PARTY: "&c%PLAYER% is already in your party!"
+    DISBAND:
+      NOT_LEADER: "&cYou must be the leader of your party to disband it."
+    LEAVE:
+      ANNOUNCEMENT: "&c%PLAYER% has left the party."
+      IS_LEADER: "&cYou can't leave your party as the leader, you must disband it."
+  LIST_MEMBERS:
+    - "&6Team Members"
+    - "&e%MEMBERS%"
+  DELETED: "&cYour party has been deleted by the leader!"
+QUEUE:
+  ERROR:
+    LADDER_NOT_SET_UP: "&cThat ladder is not set up, and your match has been cancelled."
+  INFORMATION:
+    RANKED:
+      - " "
+      - "&eYou are currently in the ranked &a%LADDER%&e queue."
+      - "&eYou currently have &b%ELO%&e ELO."
+      - "&eYou are searching for an opponent within &b[%LOW_RANGE% -> %HIGH_RANGE%]&e ELO."
+      - " "
+    UNRANKED:
+      - " "
+      - "&eYou are currently in the unranked &a%LADDER%&e queue."
+      - "&eYou are searching for any opponent."
+      - " "
+  LEAVE: "&cYou have left the queue."
+  FAILED:
+    RANKED: "&cWe couldn't find you a match."
+    UNRANKED: "&cWe couldn't find you a match."
+  SEARCHING:
+    RANKED: "&eSearching for a fight.. &b[%LOW_RANGE% -> %HIGH_RANGE%]"
+    UNRANKED: "&eSearching for a fight.."
+  JOIN:
+    RANKED: "&eYou have joined the ranked &a%LADDER%&e queue."
+    UNRANKED: "&eYou have joined the unranked &a%LADDER%&e queue."
+  INVENTORY:
+    RANKED:
+      TITLE: "&7Ranked Queue"
+    UNRANKED:
+      TITLE: "&7Unranked Queue"
+ERROR:
+  KIT_BUILDER_NOT_DEFINED: "&cThe kit builder location has not been defined."

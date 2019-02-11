@@ -1,0 +1,3 @@
+name: TabAPI
+main: me.vertises.aztec.tablist.example.TablistPlugin
+version: 0.2-SNAPSHOT

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/base.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/cspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/custom1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/EzQueueBungee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/EzQueueSpigot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/IndividualSigns-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/jedis-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/Kperms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/lombok-1.14.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/lombok-1.16.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/mongodb-driver-async-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/mongo-java-driver-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/mongo-java-driver-2.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/mongo-java-driver-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/NametagEdit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/PermissionsEx-1.23.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/ProtocolLib17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Downloads/Telegram Desktop/Dependincies/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/plugins/WorldEdit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

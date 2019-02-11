@@ -1,0 +1,8 @@
+name: SQLBlacklist
+main: fun.conspiracy.SQLBlacklist
+version: 0.1 -STABLE
+author: Grimy
+commands:
+  blacklist:
+  unblacklist:
+  checkblacklist:

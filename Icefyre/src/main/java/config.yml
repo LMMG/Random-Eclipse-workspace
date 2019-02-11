@@ -1,0 +1,71 @@
+DATABASE:
+  MONGO:
+    DATABASE: "icefyre"
+    HOST: "127.0.0.1"
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: FALSE
+      DATABASE: "icefyre"
+      USER: "user"
+      PASSWORD: "password"
+REQUIRED_UNRANKED_MATCHES: 10
+ENDERPEARL_COOLDOWN_DURATION: 16
+FIGHT:
+  PARTY:
+    COUNTDOWN_DURATION: 5
+    COUNTDOWN_SOUND:
+      ENABLED: TRUE
+      TYPE: NOTE_PIANO
+  1V1:
+    COUNTDOWN_DURATION: 5
+    COUNTDOWN_SOUND:
+      ENABLED: TRUE
+      TYPE: NOTE_PIANO
+QUEUE:
+  STARTING_RANGE: 100
+  MAX_RANGE: 1500
+HOTBAR_ITEMS:
+  QUEUE:
+    NO_TEAM:
+      QUEUE_INFO:
+        ITEM: "NAME_TAG"
+        NAME: "&eQueue Information"
+        LORE: "&7This is to view current queue information."
+      LEAVE_QUEUE:
+        ITEM: "FIRE"
+        NAME: "&cLeave Queue"
+        LORE:
+          - "&7This is to leave the current queue."
+  TEAM:
+    LEADER:
+      FIGHT:
+        ITEM: "IRON_SWORD"
+        NAME: "&9Team Fights"
+        LORE:
+          - "&7This is for party fights."
+      DELETE:
+        ITEM: "FLINT_AND_STEEL"
+        NAME: "&cDelete Party"
+        LORE:
+          - "&7This is to delete your party."
+      LIST:
+        ITEM: "NAME_TAG"
+        NAME: "&eList Members"
+        LORE:
+          - "&7This is to list your party members."
+  NO_TEAM:
+    UNRANKED:
+      ITEM: "IRON_SWORD"
+      NAME: "&aUnranked Queue"
+      LORE:
+        - "&7This is the unranked queue."
+    RANKED:
+      ITEM: "DIAMOND_SWORD"
+      NAME: "&9Ranked Queue"
+      LORE:
+        - "&7This is the ranked queue."
+    KIT_BUILDER:
+      ITEM: "NAME_TAG"
+      NAME: "&eKit Builder"
+      LORE:
+        - "&7This is the game builder."

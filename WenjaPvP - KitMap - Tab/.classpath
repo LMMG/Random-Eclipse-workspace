@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/paperspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/plugins/WorldEdit/HCFactions - Kits.jar"/>
+	<classpathentry kind="output" path="out/production/Saifed Utilities"/>
+</classpath>

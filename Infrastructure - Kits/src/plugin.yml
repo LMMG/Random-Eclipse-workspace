@@ -1,0 +1,49 @@
+name: Infrastructure
+main: gg.vexus.Core
+author: Mist Development Team
+version: 4cdd8db
+commands:
+  lag:
+  vanish:
+    aliases: [v]
+  mod:
+    aliases: [h, staffmode, staff, cunt]
+  slowchat:
+  list:
+  clearchat:
+    aliases: [cc]
+  setpin:
+  pin:
+  copyinv:
+  help:
+  rules:
+  gopple:
+  rename:
+  report:
+  logout:
+  pvptimer:
+    aliases: [pvp]
+  gamemode:
+    aliases: [gm]
+  broadcast:
+    aliases: [bc]
+  clear:
+    aliases: [ci]
+  teleporthere:
+    aliases: [tphere]
+  teleport:
+    aliases: [tp]
+  top:
+  sudo:
+  spawner:
+  skull:
+  world:
+  ping:
+  invsee:
+  fly:
+  enchant:
+  msg:
+    aliases: [tell, pm]
+  reply:
+    aliases: [r, reply]
+  playtime:

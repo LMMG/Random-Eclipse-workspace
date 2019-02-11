@@ -1,0 +1,20 @@
+name: Common
+main: gg.vexus.Core
+author: ShitHead123
+version: 1.0
+commands:
+  lag:
+  vanish:
+    aliases: [v]
+  mod:
+    aliases: [h, staffmode, staff, cunt]
+  slowchat:
+  list:
+  clearchat:
+    aliases: [cc]
+  setpin:
+  pin:
+  copyinv:
+  ipreset:
+  help:
+  rules:

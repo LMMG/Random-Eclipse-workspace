@@ -1,0 +1,27 @@
+name: iPunish
+main: me.kairos.ipunish.IPunish
+author: Mist.GG Developer
+version: 1.0
+website: Mist.GG
+commands:
+  ban:
+    description: Bans a player.
+  history:
+    description: Shows history of a player.
+    aliases: [show]
+  ipunish:
+    description: Manages this plugin.
+  kick:
+    description: Kicks a player from the server.
+  mute:
+    description: Mutes a player.
+  punish:
+    description: Punishes a player.
+    aliases: [p]
+  tempban:
+    aliases: [tban]
+    description: Temporary bans a player.
+  unban:
+    aliases: [pardon]
+  unmute:
+    description: Unmutes a player.

@@ -1,0 +1,13 @@
+name: Horus
+main: com.hcempire.horus.Horus
+description: core gang gang shmoke xd meme
+version: 0.2-SNAPSHOT
+depend: [Ekko, Vault]
+commands:
+  eotw:
+  ffa:
+  sotw:
+  horus:
+  focus:
+  staffmode:
+    aliases: [h, hackermode, tmod, mod, modmode, moderatormode, staff]

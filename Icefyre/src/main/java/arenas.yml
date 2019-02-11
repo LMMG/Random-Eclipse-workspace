@@ -1,0 +1,4 @@
+#DEFAULT ARENA
+DEFAULT:
+  NAME: "Default"
+  DESCRIPTION: "This is the default arena."

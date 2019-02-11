@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KohiFFA - [REMAKE]:jar">
+    <output-path>C:/Development/Plugins.rar/Plugins.rar/Server/plugins</output-path>
+    <root id="archive" name="KohiFFA - [REMAKE].jar">
+      <element id="module-output" name="KohiFFA - [REMAKE]" />
+    </root>
+  </artifact>
+</component>

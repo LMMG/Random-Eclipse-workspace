@@ -1,0 +1,6 @@
+main: net.okaru.queue.Queue
+name: Queue
+author: [PuttyDotExe, Mason]
+description: MongoDB enabled Queue System.
+version: 1.4.1-RELEASE
+depend: [cLib]

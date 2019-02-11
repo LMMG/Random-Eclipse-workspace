@@ -1,0 +1,6 @@
+#True = No Talking False = Talking
+FEATURE.TALK: false
+ITEM.LOBBYSELECTOR.INV: 0
+ITEM.SERVERSELECTOR.INV: 4
+MESSAGE_JOIN:
+ - '&aWelcome'

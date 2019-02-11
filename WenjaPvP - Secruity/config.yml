@@ -1,0 +1,33 @@
+host: localhost
+port: 3306
+username: root
+database: typa
+password: password
+table: staff_data
+settings:
+  pin:
+    maxcharacters: 25
+    mincharacters: 5
+
+lang:
+  register:
+    already: '&cYour already registered. Please use /login to authenticate.'
+    toolong: '&cYour password must contain less than %max_characters% characters!'
+    tooshort: '&cYour password must contain more than %min_characters% characters!'
+    autologin: '&aSuccessfully registered and authenticated.'
+  login:
+    already: '&cYou are already authenticated!'
+    notfound: '&cAccount not found! please use /register to start the authenticate process.'
+    successful: '&aSuccessfully authenticated as %player%.'
+    incorrect: '&cIncorrect password!'
+    kickmesesage: |-
+      &7&oAuthentication
+      &cYou failed to authenticate therefore you were kicked!
+
+lang.resetip.successful: '&aSuccessfully updated %player%s authentication profile'
+lang.resetip.self: '&cYou cannot update yourself'
+lang.resetip.notfound: '&cCould not find %player% in the authentication list!'
+
+lang.resetplayer.successful: '&aSuccessfully deleted %player%s authentication profile'
+lang.resetplayer.self: '&cYou cannot remove yourself'
+lang.resetplayer.notfound: '&cCould not find %player% in the authentication list!'

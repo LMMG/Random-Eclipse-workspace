@@ -1,0 +1,11 @@
+main: us.saifed.plugins.utilities.Utilities
+
+name: Tab
+version: 0.2-SNAPSHOT
+description: "Project created exclusively for Saifed Network with the Bukkit/Spigot API."
+
+author:
+    - ItsArslann
+    
+contributors:
+    - GANGMEMBERWID

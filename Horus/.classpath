@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/paperspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/mongo-java-driver-3.0.0 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/javafx-basic-archetype-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/Desktop/cLib(1).jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Mist/HCF/Ekko.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

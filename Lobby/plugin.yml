@@ -1,0 +1,7 @@
+name: Lobby
+version: 1.0
+main: server.wenja.Bolt
+author: Mason
+commands:
+  author:
+  alert:

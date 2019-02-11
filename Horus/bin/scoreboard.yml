@@ -1,0 +1,19 @@
+TITLE: "&6&lHCFactions &c[Map 1]"
+LINES:
+  - "&r&7&m---------------------"
+  - "%KOTH%"
+  - "&a&lSOTW &aends in &l%SOTW%"
+  - "&4&lLogout:&c %LOGOUT%"
+  - "&4&lSpawn Tag:&c %SPAWN_TAG%"
+  - "&e&lEnder Pearl:&c %ENDER_PEARL%"
+  - "&9&lPvP Protection:&c %PVP_PROTECTION%"
+  - "&4&lStuck:&c %STUCK%"
+  - "&9&lHome:&c %HOME%"
+  - "&a&l%CLASS% Warmup:&c %CLASS_WARMUP%"
+  - "%BARD%"
+  - "&7&m---------------------&r"
+PLACE_HOLDER:
+  KOTH:
+   - "&9&l%KOTH%&c: %TIME%"
+  BARD:
+   - "&a&lEnergy:&c %ENERGY%"

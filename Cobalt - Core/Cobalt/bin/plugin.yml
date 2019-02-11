@@ -1,0 +1,20 @@
+name: Cobalt
+main: rip.cobalt.CobaltPlugin
+version: 0.1-UNSTABLE
+author: TCP, Addons
+commands:
+  ores:
+  profile:
+  cobalt:
+  register:
+  login:
+  changepin:
+  deletepin:
+  help:
+  blacklist:
+  unblacklist:
+  rules:
+  gamemode:
+  save:
+  security:
+  staffmode:

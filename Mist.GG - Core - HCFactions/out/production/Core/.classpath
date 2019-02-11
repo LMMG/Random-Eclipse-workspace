@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/paperspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/PermissionsEx-1.23.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/Desktop/cBrady and Supa shit that he want for there new hcf server that will be great and all and reach 600 players with no lag because guap told me/CombatTagPlus.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/plugins/HCFactions - Kits.jar"/>
+	<classpathentry kind="output" path="out/production/Core"/>
+</classpath>

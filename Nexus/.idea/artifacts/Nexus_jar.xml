@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Nexus:jar">
+    <output-path>C:/Development/Plugins.rar/Plugins.rar/Server/plugins</output-path>
+    <root id="archive" name="Nexus.jar">
+      <element id="module-output" name="Nexus" />
+    </root>
+  </artifact>
+</component>

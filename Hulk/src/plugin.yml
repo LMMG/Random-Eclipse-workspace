@@ -1,0 +1,6 @@
+name: Hulk
+main: rip.hulk.Hulk
+version: 1.0
+author: Mason
+commands:
+  hulk:

@@ -1,0 +1,172 @@
+HELP:
+  - "&6&m------------------------------------------"
+  - "&9&lHardcore Factions Help &7 - &eInformation on HCF"
+  - "&6&m------------------------------------------"
+  - "&9Map Information:"
+  - "&eCurrent Map:&7 Map 1 - Started January 1, 2017"
+  - "&eMap Border:&7 3000"
+  - "&eWarzone Until:&7 1000"
+  - "&eEnd Portals:&7 2500, 2500 in each quadrant"
+  - "&eEnchant Limits:&7 Protection 1, Sharpness 1, Power 4"
+  - "&eDeathban: &bElite&7: 1 hour, &9Basic&7: 2 hours, &fNormal&7: 4 hours"
+  - " "
+  - "&9Helpful Commands:"
+  - "&e/report <player> <reason> &7- Report cheaters with this command!"
+  - "&e/request <reason> &7- Request staff assistance."
+  - " "
+  - "&9Chat Commands:"
+  - "&eGlobal Chat &7- Prefix your message with '&d!&7' or type '&d'/f c p&7' to set."
+  - "&eTeam Chat &7- Prefix your message with '&d@&7' or type '&d'/f c f&7' to set."
+  - " "
+  - "&9Other Information:"
+  - "&eOfficial Teamspeak &7- &dts.teamspeak.com"
+  - "&eHCF Rules &7- &dwww.example.com/rules"
+  - "&eStore &7- &dwww.example.com/store"
+  - "&6&m------------------------------------------"
+SUBCLAIM:
+  SIGN_TEXT: "&4[Subclaim]"
+  ALREADY_SUBCLAIMED: "&cThis block is already subclaimed!"
+  NOT_ALLOWED: "&cThis block is subclaimed and you don't have permission to open it."
+  INVALID_BLOCK: "&cThat is not a valid subclaim block!"
+  CREATED: "&aYou have successfully created a new subclaim."
+  NOT_IN_FACTION: "&cYou must be in a faction to create subclaims."
+  NOT_OFFICER: "&cYou must an officer or the leader of your faction to create a subclaim."
+  NOT_IN_CLAIM: "&cYou must be in your faction claim to make subclaims."
+KOTH:
+  START: "&6[KingOfTheHill] &e%KOTH%&6 can now be contested."
+  CONTESTED: "&6[KingOfTheHill] &e%KOTH%&6 is being contested. &9(%TIME%)"
+  KNOCKED: "&6[KingOfTheHill] Control of &e%KOTH%&6 lost. &9(%TIME%)"
+  STOP: "&6[KingOfTheHill] &e%KOTH%&6 can no longer be contested."
+  STOP_WINNER: "&6[KingOfTheHill] &e%KOTH%&6 has been captured by &e%PLAYER%&6."
+COMBAT_LOGGER:
+  NAME: "&e%PLAYER%"
+  LOGOUT_CANCELLED: "&cSafe logout has been cancelled."
+  LOGOUT_ALREADY: "&cYou're already logging out."
+  LOGOUT_TAGGED: "&cYou cannot logout whilst combat tagged."
+  LOGOUT_PEARL: "&cYou cannot logout whilst under enderpearl cooldown."
+  LOGOUT: "&cYou will be logged out in %TIME% seconds."
+  LOGOUT_KICK: "&cYou have safely logged out."
+POTION_LIMITER:
+  BLOCKED: "&cThat potion is not allowed!"
+SPAWN_TAG:
+  PEARL_REFUNDED: "&cYour pearl has been refunded."
+COOLDOWN:
+  ENDER_PEARL: "&cYou must wait &l%TIME%&c before enderpearling again!"
+  SPAWN_TAG: "&cYou cannot enter a safezone whilst combat tagged."
+STAT_TRACKER:
+  DEATHS:
+    HEADER: "&6&lDeaths: &f%COUNT%"
+    LINE: "&f%PLAYER%&e killed by &f%KILLER%"
+  KILLS:
+    HEADER: "&6&lKills: &f%COUNT%"
+    LINE: "&f%PLAYER%&e killed by &f%KILLER%"
+DEATH_SIGN:
+  SKULL_CLICK: "&eThis is &b%PLAYER%&e head."
+  SIGN:
+    - "&c%KILLED%"
+    - "&ewas slain by"
+    - "&a%KILLER%"
+    - "%TIME%"
+  ITEM_STACK:
+    NAME: "&aDeath Sign"
+    LORE:
+      - "&c%KILLED%"
+      - "&ewas slain by"
+      - "&a%KILLER%"
+      - "&f%TIME%"
+ECONOMY:
+  SIGN:
+    BOUGHT_TEXT: "&aYou bought"
+    CANNOT_AFFORD: "&cCannot afford"
+    INVENTORY_FULL: "&cNo space for"
+    NOT_ENOUGH_TOP: "&cNot carrying"
+    NOT_ENOUGH_BOTTOM: "&con you."
+    SOLD: "&cYou sold"
+    BUY_TEXT:
+      - "&a[Buy]"
+      - "%ITEM%"
+      - "%AMOUNT%"
+      - "$%PRICE%"
+    SELL_TEXT:
+      - "&c[Sell]"
+      - "%ITEM%"
+      - "%AMOUNT%"
+      - "$%PRICE%"
+    ERROR:
+      NOT_ENOUGH: "&cYou do not have this item in your inventory."
+      NOT_ENOUGH_MONEY: "&cYou do not have enough money to buy this."
+      INVENTORY_FULL: "&cYour inventory is full!"
+MOB_STACKING:
+  DISPLAY_NAME: "&ax%COUNT%"
+CROWBAR:
+  NAME: "&cCrowbar"
+  LORE:
+    - "&9Spawner Uses&b: &e%SPAWNER_USES%"
+    - "&9Portal Uses:&b: &e%PORTAL_USES%"
+  NO_SPAWNER_USES: "&cThis crowbar has no more spawner uses!"
+  NO_PORTAL_USES: "&cThis crowbar has no more end portal uses!"
+ORES:
+  FOUND_DIAMONDS_MULTI: "&f[FD] &b%PLAYER% found &b%COUNT% diamonds."
+  FOUND_DIAMONDS_SINGLE: "&f[FD] &b%PLAYER% found &b%COUNT% diamond."
+  VIEW:
+    - "&7%PLAYER%'s Ores"
+    - "&bDiamonds:&f %DIAMOND%"
+    - "&6Gold:&f %GOLD%"
+    - "&cRedstone:&f %REDSTONE%"
+    - "&9Lapis Lazuli:&f %LAPIS%"
+    - "&aEmeralds:&f %EMERALD%"
+    - "&fQuarts: %QUARTZ%"
+    - "&7Iron:&f %IRON%"
+    - "&8Coal:&f %COAL%"
+KIT:
+  WARMUP: "&c%KIT% is warming up."
+  CANCELLED: "&c%KIT% warmup has been cancelled."
+  APPLIED: "&c%KIT% has been applied."
+  REMOVED: "&c%KIT% has been removed."
+  COOLDOWN: "&cYou must wait &l%TIME%&c before using this ability again!"
+  NEED_MORE_ENERGY: "&cYou need &l%MORE%&c more energy to use this ability!"
+DEATHBAN:
+  KICK_MESSAGE:
+    - "&cYou have been deathbanned."
+    - "It will expire in &c%TIME%."
+PVP_PROTECTION:
+  CANT_ENTER: "&cYou can't enter &c&l%FACTION%&c under &9&lPvP Protection&c."
+  HAVE_SELF: "&cYou can't do this whilst under PvP Protection."
+  HAVE_OTHER: "&c&l%PLAYER%&c has &lPvP Protection&c!"
+  COMMAND:
+    LIVES:
+      MESSAGE:
+        - "&6%PLAYER%'s Soulbound Lives:&f %SOULBOUND_LIVES%"
+        - "&6%PLAYER%'s Friend Lives:&f %FRIEND_LIVES%"
+    REVIVE:
+      USAGE: "&cUsage: /pvp revive <target>"
+      NOT_ENOUGH_LIVES: "&cYou do not have enough friend lives to revive %PLAYER%."
+      NOT_DEATHBANNED: "&c%PLAYER% is not deathbanned."
+      REVIVED: "&cYou have successfully revived %PLAYER%."
+    ENABLE:
+      USAGE: "&cUsage: /pvp enable"
+      SELF: "&cYou have enabled PvP."
+      OTHER: "&cYou have enabled PvP for %PLAYER%."
+      NONE_SELF: "&cYou do not have PvP Protection."
+      NONE_OTHER: "&c%PLAYER% does not have PvP Protection."
+    TIME:
+      USAGE: "&cUsage: /pvp time"
+      HAVE_SELF: "&cYou currently have &lPvP Protection&c for %TIME% minutes."
+      HAVE_OTHER: "&c%PLAYER% currently has &lPvP Protection&c for %TIME% minutes."
+      NONE_SELF: "&cYou do not have PvP Protection."
+      NONE_OTHER: "&c%PLAYER% does not have PvP Protection."
+    HELP:
+      - "&c/pvp lives <player> - Shows amount of lives that a player has"
+      - "&c/pvp revive <player> - Revives target player"
+      - "&c/pvp time - Shows time left on PVP Timer"
+      - "&c/pvp enable - Remove PVP Timer"
+LIVES:
+  COMMAND:
+    VIEW:
+      - "&eLives are used to revive you instantly upon death. You can purchase more lives at &chttps://www.hcempire.com/store&e."
+      - "&eFriend lives:&c %FRIEND_LIVES%"
+      - "&eSoulbound lives:&c %SOULBOUND_LIVES%"
+      - "&cYou cannot revive other players with soulbound lives."
+STAFFMODE:
+  ENABLED: "&eYour staffmode has been enabled."
+  DISABLED: "&eYour staffmode has been disabled."

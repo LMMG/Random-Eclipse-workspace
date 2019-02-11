@@ -1,0 +1,78 @@
+HUB: TRUE
+SERVER_NAME: "HCF" #only applicable if the above is false
+
+DATABASE:
+  HOST: "127.0.0.1"
+  AUTHENTICATION:
+    ENABLED: FALSE
+    PASSWORD: "password"
+
+QUEUE_SIGN:
+  QUEUE_INFO:
+    - "&nQueue Info"
+    - "&6PRO&r: %AMOUNT%"
+    - "&aVIP&r: %AMOUNT%"
+    - "&fNormal&r: %AMOUNT%"
+  QUEUE_SYSTEM_OFFLINE:
+    - "&n%NAME%"
+    - "&cOffline"
+    - "Check back"
+    - "soon!"
+  WHITELISTED:
+    - "&n%NAME%"
+    - "&cWhitelisted"
+    - "Check back"
+    - "soon!"
+  OFFLINE:
+    - "&n%NAME%"
+    - "&cOffline"
+    - "Check back"
+    - "soon!"
+  NOT_QUEUED:
+    - "&n%NAME%"
+    - "&f%ONLINE%&0/&f%MAX%"
+    - "&aClick to join"
+    - "&athe queue!"
+  QUEUED:
+    - "&n%NAME%"
+    - "&f%ONLINE%&0/&f%MAX%"
+    - "&5Your Position"
+    - "&a%POSITION% of %TOTAL%"
+
+MESSAGES:
+  KICKED_WHITELISTED: "&cYou have been kicked from the queue as the server has been whitelisted."
+  KICKED_OFFLINE: "&cYou have been kicked from the queue as the server has gone offline."
+  SENT: "&eYou have been sent to &6%QUEUE%&e."
+  SERVER_WHITELISTED: "&c%QUEUE% is currently whitelisted, please check back later."
+  SERVER_OFFLINE: "&c%QUEUE% is currently offline, please check back later."
+  SERVER_FAILURE: "&cThere was an error with our backend system and queues have been disabled."
+  SERVER_BACK_UP: "&aWe have fixed the error on our backend system and queues have been re-enabled."
+  QUEUE_OFFLINE: "&cThe queue system is currently offline!"
+  ALREADY_IN_QUEUE: "&eYou're already queueing for &6%QUEUE%&e, type &6/leavequeue&e to leave."
+  ADDED: "&eYou've been added to the &6%QUEUE%&e queue."
+  POSITION: "&dYou are in position &e#%POSITION%&d in the &e%QUEUE%&d queue."
+  NO_RANK: "&d&6To skip the queue, purchase a rank at &edonate.hcgames.org&b."
+  NOT_IN_QUEUE: "&cYou're not in a queue!"
+  LEFT_QUEUE: "&cYou have left the &7%QUEUE% queue."
+
+#ranks inheriting eachother should have negative perms, i.e pro shouldn't inherit VIP if it does then add the negative permission node e.g -rank.vip
+#permission node for each rank is rank.rankname e.g rank.vip
+RANKS:
+  OWNER:
+    PRIORITY: 1
+    NAME: "&4Owner"
+  DEVELOPER:
+    PRIORITY: 2
+    NAME: "&bDeveloper"
+  ADMINISTRATOR:
+    PRIORITY: 3
+    NAME: "&cAdministrator"
+  MOD:
+    PRIORITY: 4
+    NAME: "&3Moderator"
+  PRO:
+    PRIORITY: 5
+    NAME: "&6Pro"
+  VIP:
+    PRIORITY: 6
+    NAME: "&aVIP"

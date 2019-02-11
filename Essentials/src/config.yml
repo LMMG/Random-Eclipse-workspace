@@ -1,0 +1,13 @@
+### MODULES ###
+ANTIENDERCHEST.MODULE: true
+HEADINFO.MODULE: true
+SIGNCOLOR.MODULE: true
+FOUNDDIAMONDS.MODULE: true
+PLAYERCOUNT.MODULE: true
+
+### Messages ###
+MESSAGE.INVSEE: "&aNow viewing the players inventory"
+MESSAGE.PREFIX: "&aEssentials"
+MESSAGE.CONSOLE: "&cNo"
+MESSAGE.PERMISSIONS: "&cNo"
+MESSAGE:PLAYERCOUNTEr: "&aWelcome &a%player% &eto &a&lEssentials &a(#%number%)"

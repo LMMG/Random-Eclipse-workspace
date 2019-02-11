@@ -1,0 +1,17 @@
+main: net.wenjapvp.kohisg.KohiSG
+name: KohiSG
+version: 0.1-SNAPSHOT
+load: startup
+description: "Project created exclusively for HQPots Network with the Bukkit/Spigot API."
+
+author:
+    - WenjaPvP Development Team
+    
+softdepend:
+    - WorldEdit
+    
+commands:
+    survivalgames:
+        aliases:
+            - "sg"
+    hub:
